@@ -1,0 +1,27 @@
+using System;
+
+namespace Atividade_01___A
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			bool indeciso;
+			
+			string yeppnot = Convert.ToString(Console.ReadLine());
+			if (yeppnot == "sim")
+			{
+				indeciso = true;
+				Console.WriteLine("verdadeiro");
+			}
+			else if (yeppnot == "não")
+			{
+				indeciso = false;
+				Console.WriteLine("falso");
+			}
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
