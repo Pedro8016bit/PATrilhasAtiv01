@@ -1,0 +1,17 @@
+using System;
+
+namespace Atividade_01___A
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Digite um número:");
+			float num = float.Parse(Console.ReadLine());
+			Console.WriteLine("seu número é " + num);
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
